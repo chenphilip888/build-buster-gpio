@@ -107,7 +107,6 @@ sudo dpkg-reconfigure tzdata
 sudo dpkg-reconfigure locales
 sudo apt update
 sudo apt upgrade
-sudo vi /etc/lightdm/lightdm.conf  ( delete autologin-user=linaro )
 sync
 sudo reboot
 date
